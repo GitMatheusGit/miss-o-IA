@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-  caixaPerguntas.textContent = "futuramente...";
+  caixaPerguntas.textContent = "No fim...";
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
 }
