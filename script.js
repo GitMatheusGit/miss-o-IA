@@ -43,11 +43,11 @@ const textoResultado = document.querySelector(".texto-resultado");
     alternativas: [
      {
       texto:"Ele a acusa seus super amigos, extremamente fieis",
-      afirmacao:"foi manipulado e iludido por ela"
+      afirmacao:"foi manipulado e iludido por ela,"
      },
       {
        texto:"Ele acusa a garota falsa.",
-       afirmacao:"caiu na realidade e lembra de todos os anos de amizade com seus amigos e que eles nunca fariam isso"
+       afirmacao:"caiu na realidade e lembra de todos os anos de amizade com seus amigos e que eles nunca fariam isso,"
       }
       
     ],
@@ -58,11 +58,11 @@ const textoResultado = document.querySelector(".texto-resultado");
     alternativas: [
       {
         texto: "Ele perdoa ela.",
-        afirmacao:"Ele se iludiu e foi manipualdo"
+        afirmacao:" Artthur se iludiu e foi manipualdo"
       },
       {
         texto: "Ele decide não perdoar, voltar para seus super amigos e se arrepender de seus erros.",
-        afirmacao:"Ele pensa nos seus amigo e quebra o ciclo de ilusao que ela implantou na mente dele"
+        afirmacao:"Artthur pensa nos seus amigo e quebra o ciclo de ilusao que ela implantou na mente dele"
       }
      
      
