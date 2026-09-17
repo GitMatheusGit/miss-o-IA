@@ -12,11 +12,11 @@ const textoResultado = document.querySelector(".texto-resultado");
     alternativas: [
       {
         texto: "os Amigos maravilhosos!!!", 
-        afirmacao:"Ele usou a racionalidade e pensou na fidelidade dos seus amigos."
+        afirmacao:"Ele usou a racionalidade e pensou na fidelidade dos seus amigos"
       },
       {
         texto: "A garota!",
-        afirmacao:  "Ele foi irracional e guiado por uma ilusao mental criada por ele mesmo."
+        afirmacao:  "Foi irracional e guiado por uma ilusao mental criada por ele mesmo"
       }
      
      
@@ -28,11 +28,11 @@ const textoResultado = document.querySelector(".texto-resultado");
     alternativas: [
       {
         texto: "Longe de seus super amigos fiéis, pois ele gostaria de se tornar falso igual a ela",
-        afirmacao:"nao se importou com eles."
+        afirmacao:"Ele nao se importou com eles"
       },
      {
       texto:  "Perto dos seus super amigos fiéis que iriam o ajudar não importa as dificuldade, mesmo ele tendo feito escolhas ruins no passado.",
-        afirmacao:"usou a racionalidade e bons sentimentos e decidiu nao se separar de seus amigos incriveis."
+        afirmacao:"Ele usou a racionalidade e bons sentimentos e decidiu nao se separar de seus amigos incriveis"
     }
      
     ]
@@ -42,12 +42,12 @@ const textoResultado = document.querySelector(".texto-resultado");
       "Depois de escolher onde se sentar, Artthur começa a fazer o trabalho até o sinal bater para o recreio e depois vai comer toda comida das escola. Ao voltar do recreio ele percebe que apagou os arquivos dele e as unicas pessoas que ficaram na sala depois que ele saiu  foram seus super amigos fiés e a garota falsa. Quem ele acusa?",
     alternativas: [
      {
-      texto:"Ele a acusa seus super amigos, extremamente fieis",
-      afirmacao:"foi manipulado e iludido por ela"
+      texto:"Ele a acusa seus super amigos extremamente fieis",
+      afirmacao:"ele foi manipulado e iludido por ela"
      },
       {
        texto:"Ele acusa a garota falsa.",
-       afirmacao:"caiu na realidade e lembra de todos os anos de amizade com seus amigos e que eles nunca fariam isso"
+       afirmacao:"ele caiu na realidade e lembra de todos os anos de amizade com seus amigos e que eles nunca fariam isso"
       }
       
     ],
