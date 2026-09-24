@@ -12,11 +12,15 @@ const textoResultado = document.querySelector(".texto-resultado");
     alternativas: [
       {
         texto: "os Amigos maravilhosos!!!", 
-        afirmacao:"Ele usou a racionalidade e pensou na fidelidade dos seus amigos"
+        afirmacao:[
+        "Ele usou a racionalidade e pensou na fidelidade dos seus amigos",
+        ""
+      ]
       },
       {
         texto: "A garota!",
-        afirmacao:  "Foi irracional e guiado por uma ilusao mental criada por ele mesmo"
+        afirmacao: 
+         ["Foi irracional e guiado por uma ilusao mental criada por ele mesmo", ""]
       }
      
      
@@ -28,11 +32,15 @@ const textoResultado = document.querySelector(".texto-resultado");
     alternativas: [
       {
         texto: "Longe de seus super amigos fiéis, pois ele gostaria de se tornar falso igual a ela",
-        afirmacao:"Ele nao se importou com eles"
+        afirmacao:[
+          "Ele nao se importou com eles", 
+        ""] 
       },
      {
       texto:  "Perto dos seus super amigos fiéis que iriam o ajudar não importa as dificuldade, mesmo ele tendo feito escolhas ruins no passado.",
-        afirmacao:"Ele usou a racionalidade e bons sentimentos e decidiu nao se separar de seus amigos incriveis"
+        afirmacao:["Ele usou a racionalidade e bons sentimentos e decidiu nao se separar de seus amigos incriveis",
+          ""
+        ]
     }
      
     ]
@@ -43,11 +51,13 @@ const textoResultado = document.querySelector(".texto-resultado");
     alternativas: [
      {
       texto:"Ele a acusa seus super amigos extremamente fieis",
-      afirmacao:"ele foi manipulado e iludido por ela"
+      afirmacao:["ele foi manipulado e iludido por ela", 
+        ""]
      },
       {
        texto:"Ele acusa a garota falsa.",
-       afirmacao:"ele caiu na realidade e lembra de todos os anos de amizade com seus amigos e que eles nunca fariam isso"
+       afirmacao:["ele caiu na realidade e lembra de todos os anos de amizade com seus amigos e que eles nunca fariam isso", 
+        ""]
       }
       
     ],
