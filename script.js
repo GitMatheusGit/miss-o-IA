@@ -13,13 +13,13 @@ const textoResultado = document.querySelector(".texto-resultado");
       {
         texto: "os Amigos maravilhosos!!!", 
         afirmacao:[
-          "Ele usou a racionalidade e pensou na fidelidade dos seus amigos", "" 
+          "Ele usou a racionalidade e pensou na fidelidade dos seus amigos", "No início do trabalho, Artthur agiu com maturidade e preferiu formar dupla com seus amigos leais." 
         ]
       },
       {
         texto: "A garota!",
         afirmacao: [
-          "Foi irracional e guiado por uma ilusao mental criada por ele mesmo", ""]
+          "Foi irracional e guiado por uma ilusao mental criada por ele mesmo", "No início do trabalho, Artthur se deixou levar pelas aparências e escolheu se juntar à garota falsa."]
       }
      
      
@@ -27,11 +27,11 @@ const textoResultado = document.querySelector(".texto-resultado");
   },
   {
     enunciado:
-      "Ao escolher a garota falsa, artthur vai ao laboratório com ela e tem que escolher onde ira se sentar?",
+      "Ao escolher a garota falsa, artthur vai ao laboratório com ela e tem que escolher onde ira se sentar?", ""
     alternativas: [
       {
-        texto: "Longe de seus super amigos fiéis, pois ele gostaria de se tornar falso igual a ela",
-        afirmacao:["Ele nao se importou com eles", ""
+        texto: "Longe de seus super amigos fiéis, pois ele gostaria de se tornar falso igual a ela", "Ao entrar no laboratório, ele resolveu se sentar longe da sua turma, querendo se aproximar apenas da garota."
+        afirmacao:["Ele nao se importou com eles", "Ao entrar no laboratório, ele fez questão de se sentar perto de seus velhos amigos para manter a união."
         ]
       },
      {
