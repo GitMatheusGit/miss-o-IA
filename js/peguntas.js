@@ -100,4 +100,4 @@ export const perguntas = [
   }
 ];
 
-Também corrigi algumas frases para que as afirmações fiquem mais coerentes com cada alternativa.
+
