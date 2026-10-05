@@ -6,7 +6,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
-
+const botaoJogarNovamente = document.querySelector(“.novamente-btn”);
 
  
 
@@ -29,7 +29,7 @@ function mostraPergunta() {
 function mostraAlternativas(){
    for(const alternativa of perguntaAtual.alternativas) {
       const botaoAlternativas = document.createElement("button");
-      botaoAlternativas.textContent = alternativa.texto;
+      botaoAlternativas.textContent = alternativa.texconst botaoJogarNovamente = document.querySelector(“.novamente-btn”);to;
       botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
       caixaAlternativas.appendChild(botaoAlternativas);
    }
@@ -46,5 +46,15 @@ function mostraResultado(){
   caixaPerguntas.textContent = "No fim...";
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
+  botaoJogarNovamente.addEventListener("click", jogaNovamente());
 }
+
+
+function jogaNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    mostraPergunta();
+
+}
+
 mostraPergunta();
