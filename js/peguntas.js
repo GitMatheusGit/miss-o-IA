@@ -32,7 +32,7 @@
         afirmacao:[
           "Ele usou a racionalidade e bons sentimentos e decidiu nao se separar de seus amigos incriveis", ""
         ]
-    }Você decide pelo Artthur
+    }
      
     ]
   },
