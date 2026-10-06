@@ -46,13 +46,16 @@ function mostraResultado(){
   caixaPerguntas.textContent = "No fim...";
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
-  botaoJogarNovamente.addEventListener("click", jogaNovamente());
+  caixaResultado.classList.add("mostrar");
+  botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 
 
 function jogaNovamente(){
     atual = 0;
     historiaFinal = "";
+      caixaResultado.classList.add("remove");
+
     mostraPergunta();
 
 }
