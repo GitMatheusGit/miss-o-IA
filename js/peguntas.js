@@ -10,7 +10,8 @@ export const perguntas = [
           "Artthur percebeu que seus amigos sempre estiveram ao seu lado.",
           "Ele valorizou uma amizade verdadeira em vez de uma ilusão passageira.",
           "Sua decisão mostrou que ele sabia reconhecer quem realmente se importava com ele."
-        ]
+        ],
+        proxima: 1,
       },
       {
         texto: "A garota!",
@@ -19,7 +20,8 @@ export const perguntas = [
           "Artthur se deixou levar pelas aparências e escolheu se juntar à garota falsa.",
           "Ele ignorou os anos de amizade por acreditar em uma pessoa que mal conhecia.",
           "Sua escolha mostrou que ele estava deixando suas emoções dominarem sua racionalidade."
-        ]
+        ],
+        proxima: 2,
       }
     ]
   },
@@ -35,7 +37,8 @@ export const perguntas = [
           "Artthur começou a se afastar das pessoas que sempre estiveram ao seu lado.",
           "Ele estava cada vez mais preso à influência da garota falsa.",
           "Sua decisão aumentou a distância entre ele e seus verdadeiros amigos."
-        ]
+        ],
+        proxima: 3,
       },
       {
         texto:
@@ -45,7 +48,8 @@ export const perguntas = [
           "Artthur percebeu que seus amigos continuavam ao seu lado mesmo depois de suas escolhas ruins.",
           "Ele mostrou que ainda valorizava a amizade verdadeira.",
           "A proximidade dos amigos ajudou Artthur a perceber que poderia confiar neles."
-        ]
+        ],
+        proxima:4
       }
     ]
   },
@@ -60,7 +64,8 @@ export const perguntas = [
           "Artthur deixou a desconfiança falar mais alto do que os anos de amizade.",
           "Ele esqueceu temporariamente tudo o que seus amigos já fizeram por ele.",
           "Sua decisão mostrou como uma mentira pode fazer alguém desconfiar das pessoas erradas."
-        ]
+        ],
+        proxima: 5
       },
       {
         texto: "Ele acusa a garota falsa.",
@@ -69,7 +74,8 @@ export const perguntas = [
           "Artthur percebeu que seus amigos nunca fariam algo tão ruim contra ele.",
           "Ele analisou melhor a situação antes de tomar uma decisão.",
           "Sua escolha mostrou que ele estava recuperando sua racionalidade."
-        ]
+        ],
+        proxima: 6
       }
     ]
   },
@@ -84,7 +90,8 @@ export const perguntas = [
           "Artthur teve dificuldade para aceitar a realidade.",
           "Mesmo depois de descobrir a verdade, ele continuou dando uma nova chance para quem o enganou.",
           "Sua decisão mostrou que ele ainda estava sendo influenciado pelas emoções."
-        ]
+        ],
+        proximo: 7
       },
       {
         texto:
