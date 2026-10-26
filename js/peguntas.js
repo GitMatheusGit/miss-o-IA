@@ -56,7 +56,10 @@ export const perguntas = [
   {
     enunciado:
       "Depois do recreio, Artthur percebe que seus arquivos foram apagados. As únicas pessoas que ficaram na sala foram seus super amigos fiéis e a garota falsa. Quem ele acusa?",
-    alternativas: [
+    alternativas: ["Ele pensou nos seus amigos e quebrou o ciclo de ilusão que ela implantou em sua mente.",
+          "Artthur reconheceu seus erros e decidiu aprender com eles.",
+          "Ele percebeu o verdadeiro valor da amizade que havia deixado de lado.",
+          "Ao voltar para seus amigos, Artthur mostrou que estava disposto a reconstruir a confiança."
       {
         texto: "Ele acusa seus super amigos extremamente fiéis.",
         afirmacao: [
@@ -101,6 +104,7 @@ export const perguntas = [
           "Artthur reconheceu seus erros e decidiu aprender com eles.",
           "Ele percebeu o verdadeiro valor da amizade que havia deixado de lado.",
           "Ao voltar para seus amigos, Artthur mostrou que estava disposto a reconstruir a confiança."
+          
         ]
       }
     ]
