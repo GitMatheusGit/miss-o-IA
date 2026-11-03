@@ -36,13 +36,13 @@ function mostraPergunta() {
   caixaPerguntas.textContent = perguntaAtual.enunciado;
   caixaAlternativas.textContent = "";
   mostraAlternativas();
-<button class="iniciar-btn">Iniciar</button>
+
 }
 
 function mostraAlternativas(){
    for(const alternativa of perguntaAtual.alternativas) {
       const botaoAlternativas = document.createElement("button");
-      botaoAlternativas.textContent = alternativa.texconst botaoJogarNovamente = document.querySelector(“.novamente-btn”);to;
+      botaoAlternativas.textContent = alternativa.texto;
       botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
       caixaAlternativas.appendChild(botaoAlternativas);
    }
